@@ -5,6 +5,7 @@ warnings_are_errors: false
 
 install:
   - npm install
+  - npm install -g firebase-tools
 
 script:
   - npm run build
@@ -13,4 +14,4 @@ deploy:
   provider: firebase
   skip_cleanup: true
   token:
-    secure: "1//0gUXSqeACS0WDCgYIARAAGBASNwF-L9IrrtQ0bUJLAVbj-vUOLDihkxcnu9Cf5exJxzcvGsePGuOW2NqmjbSFP333G9cPRkzoTao"
+    secure: "XyFx4C+l338oyUkAV+hWYN8pvdGIKe55uhLQs69+KluxyQVcOfBI7Jx2KdhCf1i7Hk9nlLskkFOc0s3vwm25tINMyMTF5HgZ5ce0xEM9cYRZfdyjSxKKYAP2swzZ0j7hw83/LH960F023bP4abRq2uQRzHDbHBU8RorWAwYPRujJECHbTkD8di51sFPGKp60QUXeBx3j2lYeXn/F5oMLQYCfnUmQZM3j0jryjpSmXQT/5+l/N5McD9aafij8oUI6iJJz5F6l0Lov4fP5AY8KWzD3F3dLYD+TZSLmXnCe/avclxzTNHMg+QQ5x7OJAGtNCxZW2+IQsJXEG2yNOM2/S6JKnodjnBpbDQd1tcNBwNHDNSz+uorgLtOJZg+I1526CljsyphaNsB1uBqT6L1VhNL0QpwoN3RfRVil5IzIgWqyj6vkKJbvEZMS/JywzDNzViqLRNiZxt/uM1YZQTZe/KqplWjHNngnTtMjh8FvtSV4vPiQg6j7YK+Gj1GU/2ckFQVnBNefKupQY6mPaVr1zgUh9m/7DvezVZzs2DtjsnhRdazb6iV3DNyXgd4iQLemTcNk01FDyTKGbXVd9SfhBJF73ZL0b3OnrBMGhjusBjWvQkUNyyOAIEfUH7rgG+iFyxQEO7ulEQvk7KSADe8BYG6wyxhMvRacaXjFiUuDK1g="
