@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import instagram_logo from './Assets/instagram_logo.png';
-import Post from './Components/Post';
-import { db, auth } from './firebase';
-import ImageUpload from './Components/ImageUpload';
+import Post from './Components/Post/Post';
+import { db, auth } from './firebase/firebase';
+import ImageUpload from './Components/ImageUpload/ImageUpload';
 import { Modal, Button, TextField } from '@material-ui/core';
 import InstagramEmbed from 'react-instagram-embed';
 

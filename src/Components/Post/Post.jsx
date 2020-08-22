@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Post.css';
 import { Avatar, Button } from '@material-ui/core';
-import { db } from '../firebase';
+import { db } from '../../firebase/firebase';
 import { TextField } from '@material-ui/core';
 import firebase from 'firebase';
 
